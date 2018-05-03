@@ -1,9 +1,14 @@
 package actions;
 
+import ui.Gui;
+
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hallo");
+
+        Gui g = new Gui();
+        g.create();
+
     }
 
 }
