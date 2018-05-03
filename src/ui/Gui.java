@@ -11,7 +11,7 @@ public class Gui {
 
     Draw d;
 
-    int width = 1280, height = 720;
+    public static int width = 1280, height = 720;
 
     public void create() {
         frame = new JFrame("Jump n Run");
