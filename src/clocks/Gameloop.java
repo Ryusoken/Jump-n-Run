@@ -1,5 +1,7 @@
 package clocks;
 
+import game.Player;
+
 public class Gameloop implements Runnable{
 
     private boolean running = true;
@@ -27,6 +29,6 @@ public class Gameloop implements Runnable{
     }
 
     public void update(){
-
+        Player.move();
     }
 }

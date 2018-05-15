@@ -18,7 +18,7 @@ public class Draw extends JLabel {
         g2d.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_OFF);
 
         //Draw Background
-        g.drawImage(IL.bg,Map.backgroundPos[0].x,Map.backgroundPos[0].y,Gui.width, Gui.height, null);
+        g.drawImage(IL.bg, Map.backgroundPos[0].x, Map.backgroundPos[0].y, Gui.width, Gui.height, null);
 
         //Draw Map
         for (int x = 0; x < Map.layer1.length; x++) {
